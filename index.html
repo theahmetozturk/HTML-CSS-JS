@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="main.css">
+<body>
+    <h1 id="myHeader">TO DO List</h1>
+
+ 
+<input type="text" id="input" placeholder="enter task..."/>
+<input type="button" id="addButton" value="Add" onclick="addTask()"/>
+<hr>
+    
+<ul id="tasks">
+  <li>
+    <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+    <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+    make todo list
+  </li>
+  
+    </ul>
+<hr>
+    
+ <!-- STEP 13 below here  -->
+<script src="app.js"></script>
+</body>
+</html>
